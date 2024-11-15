@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+form{
+  width: 1170px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  height: 40px;
+}
+form input{
+flex-basis: 80%;
+border-radius: 20px;
+
+
+}
+form button{
+  flex-basis: 20%;
+  border-radius: 10px;
+
+}
+
+.outerdiv{
+  width: 1170px;
+  margin: auto;
+}
+
+.outerdiv ul{
+  margin: 0px;
+  margin-top: 50px;
+  padding: 0px;
+  list-style: none;
+  
+}
+
+.outerdiv ul li{
+  color: wheat;
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  background-color: rgb(52, 47, 47);
+  border-radius: 20px;
+
+}
+
+.outerdiv ul li span{
+  right: 20px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.complete{
+  text-decoration: line-through;
+  color: rgb(239, 17, 17);
+  background-color: rgb(86, 86, 19) !important;
+}
